@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_HiveMindExample</defName>
+        <label>EBSG - Hive Mind</label>
+        <displayPriorityInXenotype>10000</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Abstract="True" Name="EBSG_HiveMindExampleBase">
+        <geneClass>EBSGFramework.HiveMindGene</geneClass>
+        <iconPath>UI/Icons/Genes/Gene_Coagulate</iconPath>
+        <displayCategory>EBSG_HiveMindExample</displayCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HiveMindExampleBase">
+        <defName>EBSG_HiveCore</defName>
+        <label>hive core</label>        
+        <description>This is the core of the Expanded Biotech Style Genes Hive.</description>
+        <modExtensions>
+			<li Class="EBSGFramework.HiveMindExtension">
+                <key>Core</key>
+                <hiveKey>EBSGExampleHive</hiveKey>
+                <hiveRolesToCheckFor>
+                    <li> <!--Only one core allowed-->
+                        <checkKey>Core</checkKey>
+                        <thresholds>
+                            <li>
+                                <maxCount>1</maxCount>
+                                <hediffWhenTooMany>EBSG_TooManyCores</hediffWhenTooMany>
+                            </li>
+                        </thresholds>
+                    </li>
+                </hiveRolesToCheckFor>
+			</li>
+		</modExtensions>
+    </GeneDef>
+
+
+
+</Defs>

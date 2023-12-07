@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef Abstract="True" Name="EBSG_HiveMindHediffBase">
+        <defaultLabelColor>(0.48, 0.39, 0.87)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooManyCores</defName>
+        <label>too many cores</label>
+        <description>This EBSG hive has too many pawns with genes that have the Core key.</description>
+    </HediffDef>
+</Defs>
