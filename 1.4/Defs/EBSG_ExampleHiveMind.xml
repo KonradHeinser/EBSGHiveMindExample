@@ -23,12 +23,13 @@
                 <hiveRolesToCheckFor>
                     <li> <!--Only one core allowed-->
                         <checkKey>Core</checkKey>
-                        <thresholds>
-                            <li>
-                                <maxCount>1</maxCount>
-                                <hediffWhenTooMany>EBSG_TooManyCores</hediffWhenTooMany>
-                            </li>
-                        </thresholds>
+                        <maxCount>1</maxCount>
+                        <hediffWhenTooMany>EBSG_TooManyCores</hediffWhenTooMany>
+                    </li>
+                    <li> <!--Only one core allowed-->
+                        <checkKey>Drone</checkKey>
+                        <minCount>3</minCount>
+                        <hediffWhenTooMany>EBSG_TooFewDrones</hediffWhenTooMany>
                     </li>
                 </hiveRolesToCheckFor>
 			</li>

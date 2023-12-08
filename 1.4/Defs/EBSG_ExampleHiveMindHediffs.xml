@@ -13,4 +13,11 @@
         <label>too many cores</label>
         <description>This EBSG hive has too many pawns with genes that have the Core key.</description>
     </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooFewDrones</defName>
+        <label>too few drones</label>
+        <description>This EBSG hive doesn't have enough pawns with genes that have the Drone key.</description>
+    </HediffDef>
+
 </Defs>
