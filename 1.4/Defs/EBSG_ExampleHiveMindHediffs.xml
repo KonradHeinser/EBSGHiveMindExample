@@ -44,5 +44,4 @@
         <label>too many drones</label>
         <description>This EBSG hive has too many pawns with genes that have the Drone key.</description>
     </HediffDef>
-
 </Defs>
