@@ -7,6 +7,11 @@
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
+	<url>https://github.com/KonradHeinser/EBSGHiveMindExample</url>
+	
+	<description>
+		Want an example of how to make a hive mind? Here you go!
+	</description>
 	<modDependencies>
 		<li>
 			<packageId>ludeon.rimworld.biotech</packageId>
@@ -25,8 +30,4 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>EBSG.Framework</li>
 	</loadAfter>
-
-	<description>
-		Want an example of how to make a hive mind? Here you go!
-	</description>
 </ModMetaData>
