@@ -33,7 +33,7 @@
 		<li>EBSG.Framework</li>
 <<<<<<< HEAD
 	</loadAfter>
-=======
+======= error
   <name>EBSG - Hive Mind Example</name>
   <author>alite</author>
   <packageId>EBSG.Hive</packageId>
