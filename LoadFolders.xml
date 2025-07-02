@@ -3,19 +3,25 @@
 	<v1.4>
 		<!--version specific -->
 		<li>1.4</li>
+		
 		<!-- non version specific -->
 		<li>/</li>
+		<li>Common</li>
 	</v1.4>
 	<v1.5>
 		<!--version specific -->
 		<li>1.5</li>
+		
 		<!-- non version specific -->
+		<li>Common</li>
 		<li>/</li>
 	</v1.5>
 	<v1.6>
 		<!--version specific -->
 		<li>1.6</li>
+		
 		<!-- non version specific -->
+		<li>Common</li>
 		<li>/</li>
 	</v1.6>
 </loadFolders>
