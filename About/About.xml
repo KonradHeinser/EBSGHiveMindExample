@@ -6,6 +6,7 @@
 	<supportedVersions>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<url>https://github.com/KonradHeinser/EBSGHiveMindExample</url>
 	<modVersion>v9</modVersion> <!--as not really a mod thats got "releases", just reflects changes. this is the 9th commit, and it changes some stuff. Ergo, v9 -->
