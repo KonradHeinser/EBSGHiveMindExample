@@ -2,7 +2,7 @@
 <loadFolders>
 	<v1.4>
 		<!--version specific -->
-		<li>1.4</li>
+		<!-- <li>1.4</li> as folder is deleted, commented out -->
 		
 		<!-- non version specific -->
 		<li>/</li>
