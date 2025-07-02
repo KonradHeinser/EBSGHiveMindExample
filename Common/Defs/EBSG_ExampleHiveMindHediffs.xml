@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--While all hediffs are named as though they'd apply negative effects when under/over the min/max threshold, they do not need to be negative-->
+    <HediffDef Abstract="True" Name="EBSG_HiveMindHediffBase">
+        <defaultLabelColor>(0.48, 0.39, 0.87)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooFewCores</defName>
+        <label>too few cores</label>
+        <description>This EBSG hive has too few pawns with genes that have the Core key.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_EnoughCores</defName>
+        <label>enough cores</label>
+        <description>This EBSG hive has a good number of pawns with genes that have the Core key.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooManyCores</defName>
+        <label>too many cores</label>
+        <description>This EBSG hive has too many pawns with genes that have the Core key.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooFewDrones</defName>
+        <label>too few drones</label>
+        <description>This EBSG hive doesn't have enough pawns with genes that have the Drone key.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_EnoughDrones</defName>
+        <label>enough drones</label>
+        <description>This EBSG hive has a good number of pawns with genes that have the Drone key.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="EBSG_HiveMindHediffBase">
+        <defName>EBSG_TooManyDrones</defName>
+        <label>too many drones</label>
+        <description>This EBSG hive has too many pawns with genes that have the Drone key.</description>
+    </HediffDef>
+</Defs>
